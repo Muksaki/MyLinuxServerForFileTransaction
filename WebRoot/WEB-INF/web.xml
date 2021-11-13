@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>MyLinuxServerForFileTransaction</display-name>
+  <servlet>
+    <description>To address HTTP requests raised by FileUpload.jsp</description>
+    <display-name>File Transaction Servlet</display-name>
+    <servlet-name>FileTransaction</servlet-name>
+    <servlet-class>com.ht.servlet.FileTransaction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VideoProcessing</servlet-name>
+    <servlet-class>com.ht.servlet.VideoProcessing</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AccountCheck</servlet-name>
+    <servlet-class>com.ht.servlet.AccountCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserSignup</servlet-name>
+    <servlet-class>com.ht.servlet.UserSignup</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Text_Replacement</servlet-name>
+    <servlet-class>com.ht.servlet.Text_Replacement</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getPersonalInformation</servlet-name>
+    <servlet-class>com.ht.servlet.getPersonalInformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AudioTransaction</servlet-name>
+    <servlet-class>com.ht.servlet.AudioTransaction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IdMemory</servlet-name>
+    <servlet-class>com.ht.servlet.IdMemory</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SoundTransformation</servlet-name>
+    <servlet-class>com.ht.servlet.SoundTransformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>zer</servlet-name>
+    <servlet-class>com.ht.servlet.zer</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>FileTransaction</servlet-name>
+    <url-pattern>/servlet/FileTransaction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VideoProcessing</servlet-name>
+    <url-pattern>/servlet/VideoProcessing</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountCheck</servlet-name>
+    <url-pattern>/servlet/AccountCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserSignup</servlet-name>
+        <url-pattern>/UserSignup</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Text_Replacement</servlet-name>
+    <url-pattern>/servlet/Text_Replacement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getPersonalInformation</servlet-name>
+    <url-pattern>/servlet/getPersonalInformation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AudioTransaction</servlet-name>
+    <url-pattern>/servlet/AudioTransaction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IdMemory</servlet-name>
+    <url-pattern>/servlet/IdMemory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SoundTransformation</servlet-name>
+    <url-pattern>/servlet/SoundTransformation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zer</servlet-name>
+    <url-pattern>/servlet/zer</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
